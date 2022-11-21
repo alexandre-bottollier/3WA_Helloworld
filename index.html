@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>helloworld</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    
+    <header>
+        <img src="ressources/logo.png" alt="logo de helloworld">
+        <nav>
+            <ul>
+                <li><a href="#carnet">Carnet de voyages</a></li>
+                <li><a href="#quand_partir">Quand partir ?</a></li>
+                <li><a href="#a_propos">A propos</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Carnets de voyage</h1>
+        <section class="dervoy" id="carnet">
+            
+            <h2>Mes derniers voyages</h2>
+            
+            <div class="vienne">
+                <h3>Vienne, Autriche</h3>
+                <div class="contentvienne">
+                    <img src="ressources/vienne.jpg" alt="photo de Vienne">
+                    <div class="textvienne">
+                        <p>Vienne est un mélange d’architecture fastueuse, de musique et de charme pittoresque.</p>
+                        <p>Semblable à nulle autre, <strong>Vienne</strong> préserve intact son aspect historique d’origine marqué par des édifices fastueux datant de l’époque baroque et des débuts du XXème siècle.</p>
+                        <p>La moitié de la ville est située sur le Danube et offre des parcs, la forêt viennoise et même des zones viticoles pour les loisirs.</p>
+                        <a type="button" href="vienne/vienne.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="marrak">
+                <h3>Marrakech, Maroc</h3>
+                <div class="contentmarrak">
+                <img src="ressources/marrakech.jpg" alt="photo de marrakech">
+                    <div class="textmarrak">
+                        <p>Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de l'Atlas. <strong>Marrakech</strong> est surnommée « la ville rouge » ou la « ville ocre » en référence à la couleur rouge d'une grande partie de ses immeubles et ses maisons.</p>
+                        <p>Marrakech est une ville unique en son genre qui se distingue totalement du reste. Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses saveurs et ses odeurs vous marqueront dès votre arrivée et vous accompagneront des semaines après votre retour.</p>
+                        <a type="button" href="">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="bestsais" id="quand_partir">
+            
+            <h2>Les meilleures saisons pour voyager</h2>
+            
+            <table>
+                <tr>
+                    <th>Ville</th>
+                    <th>Pays</th>
+                    <th>Périodes</th>
+                </tr>
+                <tr>
+                    <td>Bali</td>
+                    <td>Indonésie</td>
+                    <td>juin à septembre</td>
+                </tr>
+                <tr>
+                    <td>Marrakech</td>
+                    <td>Maroc</td>
+                    <td>mars à juin, septembre à novembre</td>
+                </tr>
+                <tr>
+                    <td>Miami</td>
+                    <td>USA</td>
+                    <td>janvier à avril, novembre, décembre</td>
+                </tr>
+                <tr>
+                    <td>Vienne</td>
+                    <td>Autriche</td>
+                    <td>juin à septembre</td>
+                </tr>
+                <tr>
+                    <td>Sydney</td>
+                    <td>Australie</td>
+                    <td>mars à mai, septembre et octobre</td>
+                </tr>
+            </table>
+            
+        </section>
+        
+        <section class="about" id="a_propos">
+            <!--<img src="ressources/fond.jpg" alt="image en fond : ile">-->
+            <div class="about_content">
+                <div class="about_text">
+                    <h2>À propos</h2>
+                    <p>Je m'appelle Claire et j'aime les <strong>voyages</strong> et l'<strong>aventure</strong>.</p>
+                    <p>C'est suite à un long <strong>tour du monde</strong> que j'ai changé de vie et que j'ai décidé de créer ce blog pour vous aider à voyager.</p>
+                    <p>Ma passion pour le voyage est désormais devenu mon métier.</p>
+                    <p>Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour <strong>réduire votre budget voyages</strong> et pouvoir partir plus souvent.</p>
+                </div>
+                <div></div>
+                    
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            <h2>Me contacter</h2>
+            <ul>
+                <li class="item1">31 Rue d'Auteuil, Paris 16ème</li>
+                <li class="item2"><a mailto="claire@helloworld.com">claire@helloworld.com</a></li>
+                <li class="item3"><a tel="+33601030507" >06 01 03 05 07</a></li>
+            </ul>
+            
+            <div class="formcontact"></div>
+                <h3>Formulaire de contact</h3>
+                
+                <form action="/ma-page-de-traitement" method="post">
+                    
+                    <div class="form_top">
+                        <div class="form_left">
+                            <div>
+                                <input type="name" id="name" name="user_name" placeholder="Votre nom">
+                            </div>
+                            <div>
+                                <input type="email" id="mail" name="user_mail" placeholder="Votre email">
+                            </div>
+                            <div>
+                                <input type="tel" id="phone" name="user_phone" placeholder="Votre numéro de téléphone">
+                            </div>
+                        </div>
+                        
+                        <div class="form_right">
+                            <textarea name="votremessage" placeholder="Votre message"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="button">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
+            
+        </section>
+        
+        <div class="socials">
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+        <img src="ressources/3wa-logo.png" alt="logo 3W Academy">
+        <p>Ce matériel pédagogique est la proprété de la <a href="3wa.fr">3W Academy</a>. Cet exercice a été réalisé par <a href="3wa.fr">Christiane Dumont</a>.</p>
+        <p>Images fournies par <a href="https://pixabay.com/fr/">Pixabay</a>.</p>
+    </footer>
+    
+</body>
+</html>

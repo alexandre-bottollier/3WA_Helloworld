@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    color: #333;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Début du header*/
+
+header {
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 10em;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: #40CCEA;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}    
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*Fin du header*/
+
+
+
+h1 {
+    color: #40CCEA;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 45px;
+    word-spacing: 10px;
+    border-bottom: 1px dotted #40CCEA;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.dervoy, .bestsais, .about_content ,.contact{
+    max-width: 900px;
+    width: 90%;
+    margin:auto;
+}
+
+.contentvienne {
+    display: flex;
+    flex-direction: row;
+    flex : auto;
+    gap: 20px;
+}
+
+.vienne, .marrak{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.contentvienne img {
+    max-width: 50%;
+    object-fit: contain
+}
+
+.dervoy a {
+    text-decoration: none;
+    background-color: #0096D0;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.contentmarrak {
+    display: flex;
+    flex-direction: row-reverse;
+    flex : auto;
+    gap: 20px;
+}
+
+.contentmarrak img {
+    max-width: 50%;
+    object-fit: contain
+}
+
+td, th{
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-weight: normal;
+}
+
+th {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even){
+    background-color: #EEEEEE;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+/*.about img {*/
+/*    width: 100%;*/
+/*    height: 85%;*/
+/*    min-height: 85%;*/
+/*    max-height: 500px;*/
+/*    object-fit: cover;*/
+/*    position: absolute;*/
+
+/*}*/
+
+
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background: url('ressources/fond.jpg') 5% 5% border-box;
+    background-position: center;
+    padding: 20px;
+}
+
+.about_content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about_content div {
+    flex: 1;
+}
+
+.about_text {
+    background-color: white;
+    padding: 2%;
+}
+
+.contact li{
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    background-color: #444444;
+    background-image: url('ressources/map-image.png');
+    padding: 20px;
+    object-fit: fill;
+}
+
+.formcontact div {
+    width: 100%;
+    height: 100%;
+}
+
+.form_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea, button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+  -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+     -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+          box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    height: 40px;
+}
+
+textarea {
+    height: 100%;
+}
+
+.form_left, .form_right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_left div {
+    width: 100%;
+}
+
+button {
+    text-decoration: none;
+    background-color: #0096D0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #40CCEA;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 80px;
+    margin: auto;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+}
+
+
